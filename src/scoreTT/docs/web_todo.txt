@@ -1,0 +1,18 @@
+#implicit
+요청사항 간 integrity (서로 sametime 인가? 서로 day along/separate 인가?)
+unwelcome, welcome 겹칠 수 없게
+unwelcome, welcome, take 등  선택하면 즉석에서 점수 계산
+day_along 하려면 split 길이 같아야함
+
+
+기존: s['split']: 2, (6), (3, 3), (4, 2)
+    # if len(units)==1: units=(int(total_unit/units[0]))*units[0]
+^이러지 말고 6slot짜리에 2가 들어오면 알아서 (3, 3)이 되게
+
+total_unit=(s['theory']+s['lab'])*SLOT_COUNT['HOUR']
+if sum(units)!=total_unit: exit("Web contraint error: split units are inconsistent with total units")
+
+
+
+학생 희망 선택 1지망, 2지망
+1지망 최대 23학점 2지망 최대 7학점
