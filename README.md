@@ -1,3 +1,5 @@
+# Automatic timetable scheduling algorithm
+
 # 2019 UGRP - 수강 신청 알고리즘 개발 
 이 레포지토리는 2019년 DGIST의 UGRP, 수강 신청 알고리즘 개발의 스크립트를 첨부한 곳입니다.
 
